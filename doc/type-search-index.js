@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"<Unnamed>","l":"Client"},{"p":"<Unnamed>","l":"Event"},{"p":"<Unnamed>","l":"SortedArrayList"},{"p":"<Unnamed>","l":"WorldSportsChampionship"}]

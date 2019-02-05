@@ -1,0 +1,871 @@
+/Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/bin/java "-javaagent:/Users/browny182/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/173.3727.127/IntelliJ IDEA.app/Contents/lib/idea_rt.jar=58672:/Users/browny182/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/173.3727.127/IntelliJ IDEA.app/Contents/bin" -Dfile.encoding=UTF-8 -classpath "/Users/browny182/Documents/Computer Science MSc/CSC8001/Coursework/Part 2/WorldSportsChampionship/out/production/WorldSportsChampionship" WorldSportsChampionship
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 4          
+Event: Equestrian Jumping       Available Tickets: 7          
+Event: Football                 Available Tickets: 2          
+Event: Handball                 Available Tickets: 66         
+Event: Tennis                   Available Tickets: 8          
+Event: Volleyball               Available Tickets: 41         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: No Tickets Bought Yet
+Client Name: Emma Williams
+	Events Attending: No Tickets Bought Yet
+Client Name: John Williams
+	Events Attending: No Tickets Bought Yet
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? John Williams
+Which event would John Williams like to buy tickets for? Athletics
+How many tickets would John Williams like to buy for Athletics? one
+Error: Positive whole number expected
+How many tickets would John Williams like to buy for Athletics? -10
+
+You are about to sell 0 ticket(s) to John Williams for Athletics
+Is this information correct? (y)es/(n)o n
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? John Williams
+Which event would John Williams like to buy tickets for? Athletics
+How many tickets would John Williams like to buy for Athletics? 1
+
+You are about to sell 1 ticket(s) to John Williams for Athletics
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 3          
+Event: Equestrian Jumping       Available Tickets: 7          
+Event: Football                 Available Tickets: 2          
+Event: Handball                 Available Tickets: 66         
+Event: Tennis                   Available Tickets: 8          
+Event: Volleyball               Available Tickets: 41         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: No Tickets Bought Yet
+Client Name: Emma Williams
+	Events Attending: No Tickets Bought Yet
+Client Name: John Williams
+	Events Attending: [Athletics - 1]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? John Williams
+Which event would John Williams like to buy tickets for? Athletics
+How many tickets would John Williams like to buy for Athletics? 4
+
+There are only 3 tickets remaining
+Would you like to enter a new value? (y)es/(n)o y
+How many tickets would John Williams like to buy for Athletics? 3
+
+You are about to sell 3 ticket(s) to John Williams for Athletics
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 0          
+Event: Equestrian Jumping       Available Tickets: 7          
+Event: Football                 Available Tickets: 2          
+Event: Handball                 Available Tickets: 66         
+Event: Tennis                   Available Tickets: 8          
+Event: Volleyball               Available Tickets: 41         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: No Tickets Bought Yet
+Client Name: Emma Williams
+	Events Attending: No Tickets Bought Yet
+Client Name: John Williams
+	Events Attending: [Athletics - 4]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? Anna Smith
+Which event would Anna Smith like to buy tickets for? Badminton
+Cannot find that event
+Try again? (y)es/(n)o y
+Which event would Anna Smith like to buy tickets for? Tennis
+How many tickets would Anna Smith like to buy for Tennis? 4
+
+You are about to sell 4 ticket(s) to Anna Smith for Tennis
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 0          
+Event: Equestrian Jumping       Available Tickets: 7          
+Event: Football                 Available Tickets: 2          
+Event: Handball                 Available Tickets: 66         
+Event: Tennis                   Available Tickets: 4          
+Event: Volleyball               Available Tickets: 41         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: [Tennis - 4]
+Client Name: Emma Williams
+	Events Attending: No Tickets Bought Yet
+Client Name: John Williams
+	Events Attending: [Athletics - 4]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? Emma Williams
+Which event would Emma Williams like to buy tickets for? Tennis
+How many tickets would Emma Williams like to buy for Tennis? 5
+
+There are only 4 tickets remaining
+Would you like to enter a new value? (y)es/(n)o y
+How many tickets would Emma Williams like to buy for Tennis? 4
+
+You are about to sell 4 ticket(s) to Emma Williams for Tennis
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 0          
+Event: Equestrian Jumping       Available Tickets: 7          
+Event: Football                 Available Tickets: 2          
+Event: Handball                 Available Tickets: 66         
+Event: Tennis                   Available Tickets: 0          
+Event: Volleyball               Available Tickets: 41         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: [Tennis - 4]
+Client Name: Emma Williams
+	Events Attending: [Tennis - 4]
+Client Name: John Williams
+	Events Attending: [Athletics - 4]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? Anna Smith
+Which event would Anna Smith like to buy tickets for? Football
+How many tickets would Anna Smith like to buy for Football? 2
+
+You are about to sell 2 ticket(s) to Anna Smith for Football
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? David Johnson
+Cannot find that client
+Try again? (y)es/(n)o y
+
+Which client would you like to sell tickets to? John Williams
+Which event would John Williams like to buy tickets for? Tennis
+No more tickets available for Tennis
+Would you like to choose a different event? (y)es/(n)/o y
+Which event would John Williams like to buy tickets for? Football
+No more tickets available for Football
+Would you like to choose a different event? (y)es/(n)/o y
+Which event would John Williams like to buy tickets for? Volleyball
+How many tickets would John Williams like to buy for Volleyball? 3
+
+You are about to sell 3 ticket(s) to John Williams for Volleyball
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 0          
+Event: Equestrian Jumping       Available Tickets: 7          
+Event: Football                 Available Tickets: 0          
+Event: Handball                 Available Tickets: 66         
+Event: Tennis                   Available Tickets: 0          
+Event: Volleyball               Available Tickets: 38         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: [Football - 2, Tennis - 4]
+Client Name: Emma Williams
+	Events Attending: [Tennis - 4]
+Client Name: John Williams
+	Events Attending: [Athletics - 4, Volleyball - 3]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? John Williams
+Which event would John Williams like to buy tickets for? Equestiran Jumping
+Cannot find that event
+Try again? (y)es/(n)o y
+Which event would John Williams like to buy tickets for? Equestrian Jumping
+How many tickets would John Williams like to buy for Equestrian Jumping? 3
+
+You are about to sell 3 ticket(s) to John Williams for Equestrian Jumping
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 0          
+Event: Equestrian Jumping       Available Tickets: 4          
+Event: Football                 Available Tickets: 0          
+Event: Handball                 Available Tickets: 66         
+Event: Tennis                   Available Tickets: 0          
+Event: Volleyball               Available Tickets: 38         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: [Football - 2, Tennis - 4]
+Client Name: Emma Williams
+	Events Attending: [Tennis - 4]
+Client Name: John Williams
+	Events Attending: [Athletics - 4, Equestrian Jumping - 3, Volleyball - 3]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? Anna Smith
+Which event would Anna Smith like to buy tickets for? Athletics
+No more tickets available for Athletics
+Would you like to choose a different event? (y)es/(n)/o y
+Which event would Anna Smith like to buy tickets for? Handball
+How many tickets would Anna Smith like to buy for Handball? 5
+
+You are about to sell 5 ticket(s) to Anna Smith for Handball
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 0          
+Event: Equestrian Jumping       Available Tickets: 4          
+Event: Football                 Available Tickets: 0          
+Event: Handball                 Available Tickets: 61         
+Event: Tennis                   Available Tickets: 0          
+Event: Volleyball               Available Tickets: 38         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: [Football - 2, Handball - 5, Tennis - 4]
+Client Name: Emma Williams
+	Events Attending: [Tennis - 4]
+Client Name: John Williams
+	Events Attending: [Athletics - 4, Equestrian Jumping - 3, Volleyball - 3]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? Emma Williams
+Which event would Emma Williams like to buy tickets for? Equestrian Jumping
+How many tickets would Emma Williams like to buy for Equestrian Jumping? 4
+
+You are about to sell 4 ticket(s) to Emma Williams for Equestrian Jumping
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 0          
+Event: Equestrian Jumping       Available Tickets: 0          
+Event: Football                 Available Tickets: 0          
+Event: Handball                 Available Tickets: 61         
+Event: Tennis                   Available Tickets: 0          
+Event: Volleyball               Available Tickets: 38         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: [Football - 2, Handball - 5, Tennis - 4]
+Client Name: Emma Williams
+	Events Attending: [Equestrian Jumping - 4, Tennis - 4]
+Client Name: John Williams
+	Events Attending: [Athletics - 4, Equestrian Jumping - 3, Volleyball - 3]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? Emma Williams
+Which event would Emma Williams like to buy tickets for? Volleyball
+How many tickets would Emma Williams like to buy for Volleyball? 4
+
+You are about to sell 4 ticket(s) to Emma Williams for Volleyball
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 0          
+Event: Equestrian Jumping       Available Tickets: 0          
+Event: Football                 Available Tickets: 0          
+Event: Handball                 Available Tickets: 61         
+Event: Tennis                   Available Tickets: 0          
+Event: Volleyball               Available Tickets: 34         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: [Football - 2, Handball - 5, Tennis - 4]
+Client Name: Emma Williams
+	Events Attending: [Equestrian Jumping - 4, Tennis - 4, Volleyball - 4]
+Client Name: John Williams
+	Events Attending: [Athletics - 4, Equestrian Jumping - 3, Volleyball - 3]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? Anna Smith
+Sorry a client is only able to buy tickets for up to 3 events
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? Emma Williams
+Sorry a client is only able to buy tickets for up to 3 events
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: b
+
+Which client would you like to sell tickets to? John Williams
+Sorry a client is only able to buy tickets for up to 3 events
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: r
+
+Which client would like to return tickets? Anna Smith
+
+The events that Anna Smith has tickets for are:
+Football             Tickets: 2          
+Handball             Tickets: 5          
+Tennis               Tickets: 4          
+
+Which event would Anna Smith like to return tickets for? Football
+
+Anna Smith has 2 tickets for Football
+How many tickets would Anna Smith like to return? 2
+
+You are about to return 2 ticket(s) from Anna Smith for Football
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 0          
+Event: Equestrian Jumping       Available Tickets: 0          
+Event: Football                 Available Tickets: 2          
+Event: Handball                 Available Tickets: 61         
+Event: Tennis                   Available Tickets: 0          
+Event: Volleyball               Available Tickets: 34         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: [Handball - 5, Tennis - 4]
+Client Name: Emma Williams
+	Events Attending: [Equestrian Jumping - 4, Tennis - 4, Volleyball - 4]
+Client Name: John Williams
+	Events Attending: [Athletics - 4, Equestrian Jumping - 3, Volleyball - 3]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: r
+
+Which client would like to return tickets? John Williams
+
+The events that John Williams has tickets for are:
+Athletics            Tickets: 4          
+Equestrian Jumping   Tickets: 3          
+Volleyball           Tickets: 3          
+
+Which event would John Williams like to return tickets for? Volleyball
+
+John Williams has 3 tickets for Volleyball
+How many tickets would John Williams like to return? 3
+
+You are about to return 3 ticket(s) from John Williams for Volleyball
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 0          
+Event: Equestrian Jumping       Available Tickets: 0          
+Event: Football                 Available Tickets: 2          
+Event: Handball                 Available Tickets: 61         
+Event: Tennis                   Available Tickets: 0          
+Event: Volleyball               Available Tickets: 37         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: [Handball - 5, Tennis - 4]
+Client Name: Emma Williams
+	Events Attending: [Equestrian Jumping - 4, Tennis - 4, Volleyball - 4]
+Client Name: John Williams
+	Events Attending: [Athletics - 4, Equestrian Jumping - 3]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: r
+
+Which client would like to return tickets? Emma Williams
+
+The events that Emma Williams has tickets for are:
+Equestrian Jumping   Tickets: 4          
+Tennis               Tickets: 4          
+Volleyball           Tickets: 4          
+
+Which event would Emma Williams like to return tickets for? Tennis
+
+Emma Williams has 4 tickets for Tennis
+How many tickets would Emma Williams like to return? 5
+Emma Williams doesn't have that many tickets to return
+Would you like to enter a new value (y)es/(n)o t
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: r
+
+Which client would like to return tickets? Emma Williams
+
+The events that Emma Williams has tickets for are:
+Equestrian Jumping   Tickets: 4          
+Tennis               Tickets: 4          
+Volleyball           Tickets: 4          
+
+Which event would Emma Williams like to return tickets for? Tennis
+
+Emma Williams has 4 tickets for Tennis
+How many tickets would Emma Williams like to return? 2
+
+You are about to return 2 ticket(s) from Emma Williams for Tennis
+Is this information correct? (y)es/(n)o y
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: e
+
+                 ALL EVENT INFORMATION                
+------------------------------------------------------
+Event: Athletics                Available Tickets: 0          
+Event: Equestrian Jumping       Available Tickets: 0          
+Event: Football                 Available Tickets: 2          
+Event: Handball                 Available Tickets: 61         
+Event: Tennis                   Available Tickets: 2          
+Event: Volleyball               Available Tickets: 37         
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: c
+
+                 ALL CLIENT INFORMATION
+------------------------------------------------------
+Client Name: Anna Smith
+	Events Attending: [Handball - 5, Tennis - 4]
+Client Name: Emma Williams
+	Events Attending: [Equestrian Jumping - 4, Tennis - 2, Volleyball - 4]
+Client Name: John Williams
+	Events Attending: [Athletics - 4, Equestrian Jumping - 3]
+------------------------------------------------------
+
+---------------------------------------
+| [e] Display Event Info              |
+| [c] Display Client Info             |
+| [b] Sell Tickets                    |
+| [r] Cancel/Return Tickets           |
+|                                     |
+| [f] Exit Program                    |
+---------------------------------------
+Please make a selection and press Enter: f
+
+Are you sure you would like to quit? (y)es/(n)o y
+Goodbye!
+
+Process finished with exit code 0
